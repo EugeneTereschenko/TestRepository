@@ -14,4 +14,13 @@ public class RankedDDBTableDto {
     String email;
 
     String LogoOriginFileName;
+
+    @Override
+    public String toString() {
+        return "RankedDDBTableDto{" +
+                "nickName='" + nickName + '\'' +
+                ", email='" + email + '\'' +
+                ", LogoOriginFileName='" + LogoOriginFileName + '\'' +
+                '}';
+    }
 }
